@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 import json
 from typing import TYPE_CHECKING
+from models.base_model import BaseModel
 if TYPE_CHECKING:
     from models.base_model import BaseModel
 class FileStorage:
