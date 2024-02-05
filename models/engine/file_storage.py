@@ -9,7 +9,8 @@ from models.review import Review
 from typing import TYPE_CHECKING
 if TYPE_CHECKING:
     from models.base_model import BaseModel
-class FileStorage:
+    import models.__init__
+    class FileStorage:
     """Represents an abstracted storage engine.
 
     Attributes:
