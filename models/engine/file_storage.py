@@ -10,7 +10,7 @@ class FileStorage:
     __file_path (str): The name of the  file to save objects to.
     __objects (dict): A dictioanry of insstantiated objects.
     """
-    
+
     __file_path = "file.json"
     __objects = {}
 
@@ -32,12 +32,13 @@ class FileStorage:
 
     def reload(self):
         """Deserialize the JSON file __path_path to __objects, if it exists."""
-        try:
-            with open(FileStorage.__file_path) as file:
+        if os.path.isFile(FileStorage.__file_path):
+            with open(FileStorage.__file_path, 'r', encoding="utf-8") as file:
                 objdict = json.load(file)
-                for o in objdict.values():
-                    cls_name = o["__class__"]
-                    del o["__class__"]
-                    self.new(eval(cls_name)(**o))
-        except FileNotFoundError:
-            return
+                for key, value in objdict.items():
+                    cls_name, obj_id = key.split('.')
+                    cls = eval(cls_name)
+
+                    instance = cls(**values)
+                    FileStorage.__objects[key] = instance
+                    
