@@ -10,7 +10,7 @@ from typing import TYPE_CHECKING
 if TYPE_CHECKING:
     from models.base_model import BaseModel
     import models.__init__
-    class FileStorage:
+class FileStorage:
     """Represents an abstracted storage engine.
 
     Attributes:
