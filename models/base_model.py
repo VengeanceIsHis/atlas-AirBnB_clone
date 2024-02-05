@@ -3,7 +3,7 @@ import uuid
 from datetime import datetime
 import unittest
 import sys
-from __init__ import storage
+from models.__init__ import storage
 
 class BaseModel():
     def __init__(self, *args, **kwargs):
