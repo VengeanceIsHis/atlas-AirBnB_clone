@@ -1,9 +1,14 @@
 #!/usr/bin/python3
 import os
 import json
-from typing import TYPE_CHECKING
-if TYPE_CHECKING:
-    from models.base_model import BaseModel
+from models.base_model import BaseModel
+from models.user import User
+from models.amenity import Amenity
+from models.place import Place
+from models.review import Review
+from models.state import State
+from models.city import City
+
 class FileStorage:
     """Represents an abstracted storage engine.
 
