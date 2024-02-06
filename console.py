@@ -86,8 +86,9 @@ class HBNBCommand(cmd.Cmd):
         elif argl[0] not in HBNBCommand.__classes:
             print("** class doesn't exist **")
         else:
-            print(eval(argl[0])().id)
+            new_instance = eval(f"{argl[0]}()")
             storage.save()
+            print(new_instance.id)
 
     def do_show(self, arg):
         """Usage: show <class> <id> or <class>.show(<id>)
