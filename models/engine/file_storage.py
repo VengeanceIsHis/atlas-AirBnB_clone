@@ -39,6 +39,6 @@ class FileStorage:
                     cls_name, obj_id = key.split('.')
                     cls = eval(cls_name)
 
-                    instance = cls(**values)
+                    instance = cls(**value)
                     FileStorage.__objects[key] = instance
                     
