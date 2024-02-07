@@ -41,4 +41,3 @@ class FileStorage:
 
                     instance = cls(**value)
                     FileStorage.__objects[key] = instance
-                    
