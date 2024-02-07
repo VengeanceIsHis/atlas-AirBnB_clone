@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://app.gemoo.com/share/image-annotation/613642947337981952?codeId=vJ41NJzzY9e0o&origin=imageurlgenerator" alt="HolbertonBnB logo">
+  <img src="https://ibb.co/8mk94bx" alt="HolbertonBnB logo">
 </p>
 
 <h1 align="center">HolbertonBnB</h1>
