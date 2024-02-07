@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://ibb.co/8mk94bx" alt="HolbertonBnB logo">
+  <img src="https://imgur.com/a/eqlCElc" alt="HolbertonBnB logo">
 </p>
 
 <h1 align="center">HolbertonBnB</h1>
