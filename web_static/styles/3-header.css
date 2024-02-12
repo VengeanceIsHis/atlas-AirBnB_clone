@@ -5,10 +5,6 @@ header {
     border-bottom: 1px #CCCCCC;
     display: flex;
     align-items: center;
-    background-image: url(../images/logo.png);
-    background-repeat: no-repeat;
-    background-position: left center;
-    background-size: contain;
 }
 header .logo {
     width: 142px;
