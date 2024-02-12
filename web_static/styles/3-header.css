@@ -10,3 +10,9 @@ header {
     background-position: left center;
     background-size: contain;
 }
+header .logo {
+    width: 142px;
+    height: 60px;
+    background-image: url(../images/logo.png) no-repeat center;
+    padding-left: 20px;
+}
