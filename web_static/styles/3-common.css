@@ -9,4 +9,5 @@ body {
     justify-content: center;
     align-items: center;
     background-image: url(../images/icon.png);
+    background-size: cover;
 }  
