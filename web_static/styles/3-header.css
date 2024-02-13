@@ -9,6 +9,6 @@ header {
 header .logo {
     width: 142px;
     height: 60px;
-    background: url("../images/logo.png") no-repeat center;
+    background: url("https://s3.eu-west-3.amazonaws.com/hbtn.intranet.project.files/holbertonschool-higher-level_programming+/268/logo.png") no-repeat center;
     padding-left: 20px;
 }
