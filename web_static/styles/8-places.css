@@ -47,6 +47,12 @@ article {
     border-radius: 50%;
     right: 20px;
 }
+.price {
+    margin-top: -1px;
+}
+.price_title {
+    display: flex;
+}
 .information {
     height: 80px;
     border-top: #DDDDDD 1px;
