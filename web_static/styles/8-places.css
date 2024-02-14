@@ -22,9 +22,38 @@
     min-width: 60px;
     height: 60px;
     font-size: 30px;
-    margin-top: 20px;
+    margin-top: -5px;
+    margin-left: auto;
     position: absolute;
-    margin-right: 20px;
-    top: 0;
-    right: 0;
+    justify-content: center;
+    top: 10px;
+    right: 20px;
+    align-items: center;
+    display: flex;
+
+    border-radius: 50%;
+}
+.information {
+    height: 80px;
+    border-top: #DDDDDD 1px;
+    border-bottom: #DDDDDD 1px;
+    display: flex;
+}
+.information .max_guest {
+    width: 100px;
+}
+.information .guest_icon {
+    background: url("../images/Bigtime.png")
+}
+.information .number_rooms {
+    width: 100px;
+}
+.information .room_icon {
+    background: url("../images/Bed.png")
+}
+.information .number_bathrooms {
+    width: 100;
+}
+.information .bathroom_icon {
+    background: url("../images/")
 }
