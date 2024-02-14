@@ -73,6 +73,7 @@ article {
 }
 .information .number_rooms {
     width: 100px;
+    height: inherit
 }
 .information .room_icon {
     background: url("../images/Bed.png")
