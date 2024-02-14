@@ -38,6 +38,8 @@
     border-top: #DDDDDD 1px;
     border-bottom: #DDDDDD 1px;
     display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 .information .max_guest {
     width: 100px;
