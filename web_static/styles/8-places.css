@@ -69,7 +69,16 @@ article {
     justify-content: center;
 }
 .information .guest_icon {
-    background: url("../images/Bigtime.png")
+    background: url("../images/Bigtime.png");
+    height: inherit;
+    width: inherit;
+    flex-direction: column;
+    justify-content: center;
+}
+.guest_number h2 {
+    font-size: 14px;
+    color: #484848;
+    font-weight: normal;
 }
 .information .number_rooms {
     width: 100px;
@@ -79,6 +88,11 @@ article {
 }
 .information .room_icon {
     background: url("../images/Bed.png")
+}
+.rooms_number h2 {
+    font-size: 14px;
+    color: #484848;
+    font-weight: normal;
 }
 .information .number_bathrooms {
     width: 100;
