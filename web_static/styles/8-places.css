@@ -73,7 +73,9 @@ article {
 }
 .information .number_rooms {
     width: 100px;
-    height: inherit
+    height: inherit;
+    flex-direction: column;
+    justify-content: center;
 }
 .information .room_icon {
     background: url("../images/Bed.png")
