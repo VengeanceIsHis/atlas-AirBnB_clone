@@ -41,8 +41,12 @@
     flex-direction: row;
     justify-content: center;
 }
-.information .max_guest {
+.max_guest {
     width: 100px;
+    display: flex;
+    height: inherit;
+    flex-direction: column;
+    justify-content: center;
 }
 .information .guest_icon {
     background: url("../images/Bigtime.png")
