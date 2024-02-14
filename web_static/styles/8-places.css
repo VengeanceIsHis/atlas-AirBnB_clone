@@ -43,6 +43,7 @@ article h2 {
 }
 .price{
     margin-top: -1px;
+    display: flex;
 }
 .price_title{
     display: flex;
