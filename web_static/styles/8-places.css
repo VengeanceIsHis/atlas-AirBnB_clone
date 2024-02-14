@@ -1,18 +1,24 @@
 .places {
     margin-top: 20px;
+    flex-direction: column;
+    padding-left: 30px;
 }
 .places h1 {
     font-size: 30px;
     margin: 0;
 }
-.places article {
+.places_title {
+    padding-top: 30px;
+    margin-bottom: -25px;
+}
+article {
     width: 390px;
     padding: 20px;
     margin: 20px 0;
     border: 1px solid #FF5A5F;
     border-radius: 4px;
 }
-.places article h2 {
+article h2 {
     font-size: 30px;
     text-align: center;
 }
