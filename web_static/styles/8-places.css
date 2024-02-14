@@ -16,6 +16,20 @@
     font-size: 30px;
     text-align: center;
 }
+article {
+    width: 390px;
+    margin: 20px;
+    padding: 20px;
+    border: solid #FF5A5F 1px;
+    border-radius: 4px;
+    text-align: center;
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-bottom: 30px;
+    position: relative;
+}
 .price_by_night {
     color:#FF5A5F;
     border: #FF5A5F 4px;
@@ -30,8 +44,8 @@
     right: 20px;
     align-items: center;
     display: flex;
-
     border-radius: 50%;
+    right: 20px;
 }
 .information {
     height: 80px;
