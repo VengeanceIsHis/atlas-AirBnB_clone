@@ -44,6 +44,7 @@ article h2 {
 .price{
     margin-top: -1px;
     display: flex;
+    height: inherit
 }
 .price_title{
     display: flex;
